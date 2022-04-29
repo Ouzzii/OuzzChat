@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chat Room by ouzzi</title>
+    <link rel="icon" href="https://i.imgur.com/ziAJtPN.png">
+    <link rel="stylesheet" href="css/main.css">
+    </link>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Chat Room by ouzzii</h1>
+    </div>
+    <div id="body">
+        <script src="js/main.js"></script>
+        <div id="chatArea">
+        </div>
+        <div>
+            <a id="inputArea__name_label">Display Name</a>
+        </div>
+        <div id="inputArea">
+            <textarea id="inputArea__name" maxlength="40" spellcheck="false" onkeydown="inputAreaNameKeyPressed();">Guest</textarea>
+            <textarea id="inputArea__message" maxlength="400" spellcheck="false" onkeypress="inputAreaMessageKeyPressed();"></textarea>
+            <button id="inputArea__sendButton">
+                Send
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
