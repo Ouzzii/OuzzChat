@@ -7,7 +7,7 @@
 2. Run the following commands in the Terminal.
 ```
 git clone https://github.com/Ouzzii/OuzzChat.git
-cd chat-room
+cd OuzzChat
 npm install dependencies
 npm start
 ```
